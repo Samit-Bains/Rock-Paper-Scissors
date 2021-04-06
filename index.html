@@ -15,10 +15,6 @@
             <span id="user-score">0</span>:<span id="computer-score">0</span>
         </div>
 
-        <div class="result">
-            <p>Paper covers rock. You win!</p>
-        </div>
-
         <div class="choices">
             <div class="choice" id="rock">
                 <img src="images/rock.png" alt="rock">
@@ -31,7 +27,12 @@
             </div>
         </div>
 
-        <p id="action-message"> Make your move</p>
+        <p id="action-message">You: <span id="user-move"></span></p>
+        <p id="action-message">Computer: <span id="computer-move"></span></p>
+
+        <div class="result">
+            <p id="winner"></p>
+        </div>
 
         <script src="app.js" charset="utf-8"></script>
     </body>
